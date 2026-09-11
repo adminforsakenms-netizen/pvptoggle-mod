@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "pvptoggle",
+  "version": "${version}",
+  "name": "PvP Toggle",
+  "description": "Aktifkan/matikan PvP per pemain, cocok untuk main survival bareng teman tanpa takut di-PK.",
+  "authors": ["Kamu"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.pvptoggle.PvpToggleMod"]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
